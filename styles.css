@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+header {
+    background: #2d6a4f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.logo {
+    max-width: 100px;
+}
+.book-button {
+    background: #52b788;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.features, .gallery, .location, footer {
+    padding: 20px;
+    background: white;
+    margin: 10px;
+}
+.image-grid {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.image-grid img {
+    width: calc(50% - 10px);
+    border-radius: 8px;
+}
+footer {
+    text-align: center;
+    background: #40916c;
+    color: white;
+}
